@@ -2,27 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1em;
     color: white;
 }
 
 html, body {
     height: 100%;
-    background-image: url("../img/blue.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+}
+
+.contact {
+    font-size: 0.7em;
 }
 
 section div {
     flex-grow: 1;
 }
 
+body {
+    background-image: url("../img/blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .title h1 {
@@ -34,6 +43,15 @@ section div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+.title h3 {
+    font-size: 0.9em;
 }
 
 .img {
@@ -44,7 +62,7 @@ section div {
 
 img {
     width:70%;
-    border: 1.5px solid darkgray;
+    border: 1.6px solid darkgray;
     border-radius: 100%;
 }
 
